@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madival Edits — Cinematic Storytelling</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ========== CURSOR ========== -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">▶</span>
+        <span class="logo-text">MADIVAL<span class="logo-accent">EDITS</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <!-- Ambient gradient blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Scan-line overlay -->
+    <div class="scanlines"></div>
+
+    <!-- Floating cinematic letters -->
+    <div class="bg-letters" aria-hidden="true">
+      <span>C</span><span>I</span><span>N</span><span>E</span><span>M</span><span>A</span>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">
+        <span class="eye-line"></span>
+        Creative Studio · Est. 2024
+        <span class="eye-line"></span>
+      </p>
+      <h1 class="hero-title">
+        <span class="title-line line-1">MADIVAL</span>
+        <span class="title-line line-2">
+          <span class="stroke-text">EDITS</span>
+        </span>
+      </h1>
+      <p class="hero-sub">Turning Clips into <em>Cinematic Stories</em></p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">
+          <span>Contact Me</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#portfolio" class="btn-ghost">View Work</a>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Projects</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Clients</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">4K</span><span class="stat-label">Quality</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">24h</span><span class="stat-label">Delivery</span></div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">What We Do</p>
+        <h2 class="section-title">Our <span class="text-accent">Services</span></h2>
+        <p class="section-desc">Precision editing crafted for creators who demand excellence.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card" data-index="01">
+          <div class="card-glow"></div>
+          <div class="card-number">01</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="10" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 17l10 7-10 7V17z" fill="currentColor"/>
+              <path d="M4 18h4M4 24h4M4 30h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Video Editing</h3>
+          <p class="card-desc">Reels, Shorts, and YouTube videos edited to perfection — fast cuts, dynamic pacing, and viral-ready exports.</p>
+          <ul class="card-list">
+            <li>Instagram Reels</li>
+            <li>YouTube Shorts</li>
+            <li>Long-form YouTube</li>
+            <li>Color grading</li>
+          </ul>
+          <div class="card-cta">
+            <a href="#contact">Get Quote <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="service-card featured" data-index="02">
+          <div class="card-glow"></div>
+          <div class="featured-badge">Most Popular</div>
+          <div class="card-number">02</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="6" width="36" height="36" rx="4" stroke="currentColor" stroke-width="2"/>
+              <circle cx="16" cy="16" r="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 32l10-10 8 8 6-6 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Photo Editing</h3>
+          <p class="card-desc">Cinematic color grading, professional retouching, and visual consistency for your personal brand or business.</p>
+          <ul class="card-list">
+            <li>Skin retouching</li>
+            <li>Cinematic LUTs</li>
+            <li>Background removal</li>
+            <li>Brand consistency</li>
+          </ul>
+          <div class="card-cta">
+            <a href="#contact">Get Quote <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="service-card" data-index="03">
+          <div class="card-glow"></div>
+          <div class="card-number">03</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 4l4 8 9 1.3-6.5 6.3 1.5 9L24 24l-8 4.6 1.5-9L11 13.3 20 12 24 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M8 30l2 4 4.5 0.6-3.2 3.2 0.8 4.5L8 40l-4 2.3 0.8-4.5L1.6 34.6 6 34 8 30z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M38 30l2 4 4.5 0.6-3.2 3.2 0.8 4.5L38 40l-4 2.3 0.8-4.5-3.2-3.2 4.5-0.6L38 30z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Cinematic Edits</h3>
+          <p class="card-desc">Hollywood-grade transitions, motion graphics, visual effects, and sound design that elevate your content beyond expectations.</p>
+          <ul class="card-list">
+            <li>Custom transitions</li>
+            <li>Motion graphics</li>
+            <li>Sound design</li>
+            <li>VFX overlays</li>
+          </ul>
+          <div class="card-cta">
+            <a href="#contact">Get Quote <span>→</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Our Work</p>
+        <h2 class="section-title">The <span class="text-accent">Portfolio</span></h2>
+        <p class="section-desc">A curated collection of our finest edits.</p>
+      </div>
+
+      <!-- Filter buttons -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="image">Images</button>
+        <button class="filter-btn" data-filter="short">Short Videos</button>
+        <button class="filter-btn" data-filter="long">Long Videos</button>
+      </div>
+
+      <!-- Portfolio grid -->
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <!-- Image items -->
+        <div class="portfolio-item image" data-category="image">
+          <div class="portfolio-media">
+            <img src="assets/images/sample1.jpg" alt="Photo Edit 1" onerror="this.parentNode.innerHTML=generatePlaceholder('Photo Edit','Portrait Retouch')"/>
+            <div class="portfolio-overlay">
+              <span class="p-tag">Photo Edit</span>
+              <h4>Portrait Retouch</h4>
+              <p>Color grade + skin retouching</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item image" data-category="image">
+          <div class="portfolio-media">
+            <img src="assets/images/sample2.jpg" alt="Photo Edit 2" onerror="this.parentNode.innerHTML=generatePlaceholder('Photo Edit','Brand Shoot')"/>
+            <div class="portfolio-overlay">
+              <span class="p-tag">Photo Edit</span>
+              <h4>Brand Shoot</h4>
+              <p>Product photography edit</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item image" data-category="image">
+          <div class="portfolio-media">
+            <img src="assets/images/sample3.jpg" alt="Photo Edit 3" onerror="this.parentNode.innerHTML=generatePlaceholder('Photo Edit','Street Style')"/>
+            <div class="portfolio-overlay">
+              <span class="p-tag">Photo Edit</span>
+              <h4>Street Style</h4>
+              <p>Cinematic LUT applied</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Short video items -->
+        <div class="portfolio-item short" data-category="short">
+          <div class="portfolio-media video-wrap">
+            <video src="assets/videos/short1.mp4" controls poster="assets/images/thumb1.jpg"
+              onerror="this.parentNode.innerHTML=generatePlaceholder('Short Video','Instagram Reel')">
+            </video>
+            <div class="portfolio-overlay no-hover">
+              <span class="p-tag">Short Video</span>
+              <h4>Instagram Reel</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item short" data-category="short">
+          <div class="portfolio-media video-wrap">
+            <video src="assets/videos/short2.mp4" controls poster="assets/images/thumb2.jpg"
+              onerror="this.parentNode.innerHTML=generatePlaceholder('Short Video','YT Short')">
+            </video>
+            <div class="portfolio-overlay no-hover">
+              <span class="p-tag">Short Video</span>
+              <h4>YT Short</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Long video items -->
+        <div class="portfolio-item long" data-category="long">
+          <div class="portfolio-media video-wrap wide">
+            <video src="assets/videos/video1.mp4" controls poster="assets/images/thumb3.jpg"
+              onerror="this.parentNode.innerHTML=generatePlaceholder('Long Video','YouTube Vlog')">
+            </video>
+            <div class="portfolio-overlay no-hover">
+              <span class="p-tag">Long Video</span>
+              <h4>YouTube Vlog</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item long" data-category="long">
+          <div class="portfolio-media video-wrap wide">
+            <video src="assets/videos/video2.mp4" controls poster="assets/images/thumb4.jpg"
+              onerror="this.parentNode.innerHTML=generatePlaceholder('Long Video','Cinematic Edit')">
+            </video>
+            <div class="portfolio-overlay no-hover">
+              <span class="p-tag">Long Video</span>
+              <h4>Cinematic Edit</h4>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /portfolio-grid -->
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="contact-bg">
+      <div class="blob blob-4"></div>
+    </div>
+    <div class="container">
+      <div class="contact-wrapper">
+        <!-- Left info -->
+        <div class="contact-info">
+          <p class="section-tag">Let's Work Together</p>
+          <h2 class="section-title">Get In <span class="text-accent">Touch</span></h2>
+          <p class="contact-lead">Have a project in mind? Drop a message and let's create something extraordinary together.</p>
+
+          <div class="contact-details">
+            <a href="tel:+916361915645" class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="ci-text">
+                <span class="ci-label">Phone</span>
+                <span class="ci-value">+91 6361915645</span>
+              </div>
+            </a>
+
+            <a href="https://instagram.com/madival.edits" target="_blank" class="contact-item">
+              <div class="ci-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div class="ci-text">
+                <span class="ci-label">Instagram</span>
+                <span class="ci-value">@madival.edits</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Decorative quote -->
+          <blockquote class="contact-quote">
+            "Every frame tells a story.<br>Let's make yours unforgettable."
+            <cite>— Chethan A R, Founder</cite>
+          </blockquote>
+        </div>
+
+        <!-- Right form -->
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Chethan A R" required autocomplete="off"/>
+              <span class="input-line"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="hello@example.com" autocomplete="off"/>
+              <span class="input-line"></span>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="" disabled selected>Choose a service</option>
+                <option value="video">Video Editing</option>
+                <option value="photo">Photo Editing</option>
+                <option value="cinematic">Cinematic Edit</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="input-line"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+              <span class="input-line"></span>
+            </div>
+            <button type="submit" class="btn-submit">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-arrow">→</span>
+              <span class="btn-loader" hidden>Sending…</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <a href="#home" class="footer-logo">
+        <span class="logo-icon">▶</span>
+        MADIVAL<span class="logo-accent">EDITS</span>
+      </a>
+      <p class="footer-tagline">Turning Clips into Cinematic Stories</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Madival Edits · Crafted with ❤️ by Chethan A R</p>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">
+    <span class="toast-icon">✓</span>
+    <span class="toast-msg">Message sent successfully!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
